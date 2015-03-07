@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CoreToast.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    
+    btn.center=self.view.center;
+    
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:btn];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+-(void)btnClick:(UIButton *)btn{
+    
+    NSLog(@"点击了按钮");
+    
+    [CoreToast showMsgType:CoreToastMsgTypeInfo msg:nil subMsg:@"这个一个子标题" timeInterval:3.0 trigger:btn apperanceBlock:^{
+        NSLog(@"begin:%@",[NSThread currentThread]);
+    } completionBlock:^{
+        NSLog(@"end:%@",[NSThread currentThread]);
+    }];
+    
+    
+    
 }
+
+
+
 
 @end
