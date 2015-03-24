@@ -64,7 +64,7 @@
 
     NSDictionary *settingDict=@{
        
-       kCRToastBackgroundColorKey:rgba(37,88,31, .95f),                                              //背景颜色
+       kCRToastBackgroundColorKey:rgba(192,57,42,.95f),                                              //背景颜色
        
        kCRToastFontKey:[UIFont boldSystemFontOfSize:22.0f],                                            //字体大小
        
