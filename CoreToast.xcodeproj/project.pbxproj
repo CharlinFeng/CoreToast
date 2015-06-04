@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		899384D31B1FEF7F00127133 /* CoreToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384C01B1FEF7F00127133 /* CoreToast.m */; };
+		899384D41B1FEF7F00127133 /* CTTFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384C41B1FEF7F00127133 /* CTTFModel.m */; };
+		899384D51B1FEF7F00127133 /* CRToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384C71B1FEF7F00127133 /* CRToast.m */; };
+		899384D61B1FEF7F00127133 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384CA1B1FEF7F00127133 /* CRToastManager.m */; };
+		899384D71B1FEF7F00127133 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384CC1B1FEF7F00127133 /* CRToastView.m */; };
+		899384D81B1FEF7F00127133 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384CE1B1FEF7F00127133 /* CRToastViewController.m */; };
+		899384D91B1FEF7F00127133 /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384D01B1FEF7F00127133 /* CRToastWindow.m */; };
+		899384DA1B1FEF7F00127133 /* CoreToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 899384D21B1FEF7F00127133 /* CoreToast.bundle */; };
 		D6A615231AAA9845006CCBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615221AAA9845006CCBF3 /* main.m */; };
 		D6A615261AAA9845006CCBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615251AAA9845006CCBF3 /* AppDelegate.m */; };
 		D6A615291AAA9845006CCBF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615281AAA9845006CCBF3 /* ViewController.m */; };
@@ -14,13 +22,6 @@
 		D6A6152E1AAA9845006CCBF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A6152D1AAA9845006CCBF3 /* Images.xcassets */; };
 		D6A615311AAA9845006CCBF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A6152F1AAA9845006CCBF3 /* LaunchScreen.xib */; };
 		D6A6153D1AAA9845006CCBF3 /* CoreToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A6153C1AAA9845006CCBF3 /* CoreToastTests.m */; };
-		EE8228F91AC17152004049D7 /* CoreToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE8228EA1AC17152004049D7 /* CoreToast.bundle */; };
-		EE8228FA1AC17152004049D7 /* CoreToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8228EC1AC17152004049D7 /* CoreToast.m */; };
-		EE8228FB1AC17152004049D7 /* CRToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8228EF1AC17152004049D7 /* CRToast.m */; };
-		EE8228FC1AC17152004049D7 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8228F21AC17152004049D7 /* CRToastManager.m */; };
-		EE8228FD1AC17152004049D7 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8228F41AC17152004049D7 /* CRToastView.m */; };
-		EE8228FE1AC17152004049D7 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8228F61AC17152004049D7 /* CRToastViewController.m */; };
-		EE8228FF1AC17152004049D7 /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8228F81AC17152004049D7 /* CRToastWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		899384BF1B1FEF7F00127133 /* CoreToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreToast.h; sourceTree = "<group>"; };
+		899384C01B1FEF7F00127133 /* CoreToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreToast.m; sourceTree = "<group>"; };
+		899384C31B1FEF7F00127133 /* CTTFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTFModel.h; sourceTree = "<group>"; };
+		899384C41B1FEF7F00127133 /* CTTFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTFModel.m; sourceTree = "<group>"; };
+		899384C61B1FEF7F00127133 /* CRToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToast.h; sourceTree = "<group>"; };
+		899384C71B1FEF7F00127133 /* CRToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToast.m; sourceTree = "<group>"; };
+		899384C81B1FEF7F00127133 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastLayoutHelpers.h; sourceTree = "<group>"; };
+		899384C91B1FEF7F00127133 /* CRToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastManager.h; sourceTree = "<group>"; };
+		899384CA1B1FEF7F00127133 /* CRToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastManager.m; sourceTree = "<group>"; };
+		899384CB1B1FEF7F00127133 /* CRToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastView.h; sourceTree = "<group>"; };
+		899384CC1B1FEF7F00127133 /* CRToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastView.m; sourceTree = "<group>"; };
+		899384CD1B1FEF7F00127133 /* CRToastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastViewController.h; sourceTree = "<group>"; };
+		899384CE1B1FEF7F00127133 /* CRToastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastViewController.m; sourceTree = "<group>"; };
+		899384CF1B1FEF7F00127133 /* CRToastWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastWindow.h; sourceTree = "<group>"; };
+		899384D01B1FEF7F00127133 /* CRToastWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastWindow.m; sourceTree = "<group>"; };
+		899384D21B1FEF7F00127133 /* CoreToast.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CoreToast.bundle; sourceTree = "<group>"; };
 		D6A6151D1AAA9845006CCBF3 /* CoreToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A615211AAA9845006CCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A615221AAA9845006CCBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,20 +64,6 @@
 		D6A615361AAA9845006CCBF3 /* CoreToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A6153B1AAA9845006CCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A6153C1AAA9845006CCBF3 /* CoreToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreToastTests.m; sourceTree = "<group>"; };
-		EE8228EA1AC17152004049D7 /* CoreToast.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CoreToast.bundle; sourceTree = "<group>"; };
-		EE8228EB1AC17152004049D7 /* CoreToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreToast.h; sourceTree = "<group>"; };
-		EE8228EC1AC17152004049D7 /* CoreToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreToast.m; sourceTree = "<group>"; };
-		EE8228EE1AC17152004049D7 /* CRToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToast.h; sourceTree = "<group>"; };
-		EE8228EF1AC17152004049D7 /* CRToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToast.m; sourceTree = "<group>"; };
-		EE8228F01AC17152004049D7 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastLayoutHelpers.h; sourceTree = "<group>"; };
-		EE8228F11AC17152004049D7 /* CRToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastManager.h; sourceTree = "<group>"; };
-		EE8228F21AC17152004049D7 /* CRToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastManager.m; sourceTree = "<group>"; };
-		EE8228F31AC17152004049D7 /* CRToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastView.h; sourceTree = "<group>"; };
-		EE8228F41AC17152004049D7 /* CRToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastView.m; sourceTree = "<group>"; };
-		EE8228F51AC17152004049D7 /* CRToastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastViewController.h; sourceTree = "<group>"; };
-		EE8228F61AC17152004049D7 /* CRToastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastViewController.m; sourceTree = "<group>"; };
-		EE8228F71AC17152004049D7 /* CRToastWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastWindow.h; sourceTree = "<group>"; };
-		EE8228F81AC17152004049D7 /* CRToastWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		899384BE1B1FEF7F00127133 /* CoreToast */ = {
+			isa = PBXGroup;
+			children = (
+				899384BF1B1FEF7F00127133 /* CoreToast.h */,
+				899384C01B1FEF7F00127133 /* CoreToast.m */,
+				899384C11B1FEF7F00127133 /* Lib */,
+			);
+			path = CoreToast;
+			sourceTree = "<group>";
+		};
+		899384C11B1FEF7F00127133 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				899384C21B1FEF7F00127133 /* CRTFModel */,
+				899384C51B1FEF7F00127133 /* CRToast */,
+				899384D11B1FEF7F00127133 /* Resource */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		899384C21B1FEF7F00127133 /* CRTFModel */ = {
+			isa = PBXGroup;
+			children = (
+				899384C31B1FEF7F00127133 /* CTTFModel.h */,
+				899384C41B1FEF7F00127133 /* CTTFModel.m */,
+			);
+			path = CRTFModel;
+			sourceTree = "<group>";
+		};
+		899384C51B1FEF7F00127133 /* CRToast */ = {
+			isa = PBXGroup;
+			children = (
+				899384C61B1FEF7F00127133 /* CRToast.h */,
+				899384C71B1FEF7F00127133 /* CRToast.m */,
+				899384C81B1FEF7F00127133 /* CRToastLayoutHelpers.h */,
+				899384C91B1FEF7F00127133 /* CRToastManager.h */,
+				899384CA1B1FEF7F00127133 /* CRToastManager.m */,
+				899384CB1B1FEF7F00127133 /* CRToastView.h */,
+				899384CC1B1FEF7F00127133 /* CRToastView.m */,
+				899384CD1B1FEF7F00127133 /* CRToastViewController.h */,
+				899384CE1B1FEF7F00127133 /* CRToastViewController.m */,
+				899384CF1B1FEF7F00127133 /* CRToastWindow.h */,
+				899384D01B1FEF7F00127133 /* CRToastWindow.m */,
+			);
+			path = CRToast;
+			sourceTree = "<group>";
+		};
+		899384D11B1FEF7F00127133 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				899384D21B1FEF7F00127133 /* CoreToast.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		D6A615141AAA9845006CCBF3 = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +160,7 @@
 		D6A6151F1AAA9845006CCBF3 /* CoreToast */ = {
 			isa = PBXGroup;
 			children = (
-				EE8228E91AC17152004049D7 /* CoreToast */,
+				899384BE1B1FEF7F00127133 /* CoreToast */,
 				D6A615241AAA9845006CCBF3 /* AppDelegate.h */,
 				D6A615251AAA9845006CCBF3 /* AppDelegate.m */,
 				D6A615271AAA9845006CCBF3 /* ViewController.h */,
@@ -139,35 +197,6 @@
 				D6A6153B1AAA9845006CCBF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EE8228E91AC17152004049D7 /* CoreToast */ = {
-			isa = PBXGroup;
-			children = (
-				EE8228EA1AC17152004049D7 /* CoreToast.bundle */,
-				EE8228EB1AC17152004049D7 /* CoreToast.h */,
-				EE8228EC1AC17152004049D7 /* CoreToast.m */,
-				EE8228ED1AC17152004049D7 /* CRToast */,
-			);
-			path = CoreToast;
-			sourceTree = "<group>";
-		};
-		EE8228ED1AC17152004049D7 /* CRToast */ = {
-			isa = PBXGroup;
-			children = (
-				EE8228EE1AC17152004049D7 /* CRToast.h */,
-				EE8228EF1AC17152004049D7 /* CRToast.m */,
-				EE8228F01AC17152004049D7 /* CRToastLayoutHelpers.h */,
-				EE8228F11AC17152004049D7 /* CRToastManager.h */,
-				EE8228F21AC17152004049D7 /* CRToastManager.m */,
-				EE8228F31AC17152004049D7 /* CRToastView.h */,
-				EE8228F41AC17152004049D7 /* CRToastView.m */,
-				EE8228F51AC17152004049D7 /* CRToastViewController.h */,
-				EE8228F61AC17152004049D7 /* CRToastViewController.m */,
-				EE8228F71AC17152004049D7 /* CRToastWindow.h */,
-				EE8228F81AC17152004049D7 /* CRToastWindow.m */,
-			);
-			path = CRToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8228F91AC17152004049D7 /* CoreToast.bundle in Resources */,
+				899384DA1B1FEF7F00127133 /* CoreToast.bundle in Resources */,
 				D6A6152C1AAA9845006CCBF3 /* Main.storyboard in Resources */,
 				D6A615311AAA9845006CCBF3 /* LaunchScreen.xib in Resources */,
 				D6A6152E1AAA9845006CCBF3 /* Images.xcassets in Resources */,
@@ -272,13 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A615291AAA9845006CCBF3 /* ViewController.m in Sources */,
-				EE8228FF1AC17152004049D7 /* CRToastWindow.m in Sources */,
-				EE8228FE1AC17152004049D7 /* CRToastViewController.m in Sources */,
-				EE8228FD1AC17152004049D7 /* CRToastView.m in Sources */,
+				899384D81B1FEF7F00127133 /* CRToastViewController.m in Sources */,
+				899384D91B1FEF7F00127133 /* CRToastWindow.m in Sources */,
 				D6A615261AAA9845006CCBF3 /* AppDelegate.m in Sources */,
-				EE8228FB1AC17152004049D7 /* CRToast.m in Sources */,
-				EE8228FA1AC17152004049D7 /* CoreToast.m in Sources */,
-				EE8228FC1AC17152004049D7 /* CRToastManager.m in Sources */,
+				899384D51B1FEF7F00127133 /* CRToast.m in Sources */,
+				899384D71B1FEF7F00127133 /* CRToastView.m in Sources */,
+				899384D41B1FEF7F00127133 /* CTTFModel.m in Sources */,
+				899384D61B1FEF7F00127133 /* CRToastManager.m in Sources */,
+				899384D31B1FEF7F00127133 /* CoreToast.m in Sources */,
 				D6A615231AAA9845006CCBF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CoreToast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -412,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CoreToast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

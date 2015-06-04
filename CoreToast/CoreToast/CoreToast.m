@@ -64,7 +64,7 @@
 
     NSDictionary *settingDict=@{
        
-       kCRToastBackgroundColorKey:rgba(192,57,42,.95f),                                              //背景颜色
+       kCRToastBackgroundColorKey:[UIColor brownColor],                                              //背景颜色
        
        kCRToastFontKey:[UIFont boldSystemFontOfSize:22.0f],                                            //字体大小
        
@@ -99,6 +99,45 @@
     
     return [NSMutableDictionary dictionaryWithDictionary:settingDict];
 }
+
+
+
+
+/** 校验 */
++(BOOL)checkTFWithTrigger:(UIView *)trigger ctTFModelsBlock:(NSArray *(^)())ctTFModelsBlock{
+    
+    if(ctTFModelsBlock == nil){
+        
+        NSLog(@"错误：请传入CRTFModelsBlock"); return NO;
+    }
+    
+    NSArray *ctTFModles =ctTFModelsBlock();
+    
+    __block NSString *msg = nil;
+    
+    [ctTFModles enumerateObjectsUsingBlock:^(CTTFModel *ctTFModle, NSUInteger idx, BOOL *stop) {
+        
+        NSMutableString *str = [NSMutableString stringWithString:ctTFModle.textField.text];
+        
+        [str replaceOccurrencesOfString:@" " withString:@"" options:NSLiteralSearch range:NSMakeRange(0, str.length)];
+        
+        if(str == nil || str.length == 0){
+            msg = ctTFModle.msg;
+            *stop = YES;
+        }
+        
+    }];
+    
+    BOOL res = msg == nil;
+    
+    if(!res){
+    
+        [self showMsgType:CoreToastMsgTypeInfo msg:@"注意" subMsg:msg timeInterval:3.0f trigger:trigger apperanceBlock:nil completionBlock:nil];
+    }
+    
+    return res;
+}
+
 
 
 @end
