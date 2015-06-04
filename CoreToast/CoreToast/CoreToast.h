@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "CTTFModel.h"
+
 
 
 typedef enum{
@@ -43,10 +43,6 @@ typedef enum{
  */
 +(void)showMsgType:(CoreToastMsgType)msgType msg:(NSString *)msg subMsg:(NSString *)subMsg timeInterval:(NSTimeInterval)timeInterval trigger:(UIView *)trigger apperanceBlock:(void(^)())apperanceBlock completionBlock:(void(^)())completionBlock;
 
-
-
-/** 校验 */
-+(BOOL)checkTFWithTrigger:(UIView *)trigger ctTFModelsBlock:(NSArray *(^)())ctTFModelsBlock;
 
 
 @end

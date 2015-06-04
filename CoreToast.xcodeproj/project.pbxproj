@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		899384D31B1FEF7F00127133 /* CoreToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384C01B1FEF7F00127133 /* CoreToast.m */; };
-		899384D41B1FEF7F00127133 /* CTTFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384C41B1FEF7F00127133 /* CTTFModel.m */; };
 		899384D51B1FEF7F00127133 /* CRToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384C71B1FEF7F00127133 /* CRToast.m */; };
 		899384D61B1FEF7F00127133 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384CA1B1FEF7F00127133 /* CRToastManager.m */; };
 		899384D71B1FEF7F00127133 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384CC1B1FEF7F00127133 /* CRToastView.m */; };
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		899384BF1B1FEF7F00127133 /* CoreToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreToast.h; sourceTree = "<group>"; };
 		899384C01B1FEF7F00127133 /* CoreToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreToast.m; sourceTree = "<group>"; };
-		899384C31B1FEF7F00127133 /* CTTFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTFModel.h; sourceTree = "<group>"; };
-		899384C41B1FEF7F00127133 /* CTTFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTFModel.m; sourceTree = "<group>"; };
 		899384C61B1FEF7F00127133 /* CRToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToast.h; sourceTree = "<group>"; };
 		899384C71B1FEF7F00127133 /* CRToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToast.m; sourceTree = "<group>"; };
 		899384C81B1FEF7F00127133 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastLayoutHelpers.h; sourceTree = "<group>"; };
@@ -97,20 +94,10 @@
 		899384C11B1FEF7F00127133 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				899384C21B1FEF7F00127133 /* CRTFModel */,
 				899384C51B1FEF7F00127133 /* CRToast */,
 				899384D11B1FEF7F00127133 /* Resource */,
 			);
 			path = Lib;
-			sourceTree = "<group>";
-		};
-		899384C21B1FEF7F00127133 /* CRTFModel */ = {
-			isa = PBXGroup;
-			children = (
-				899384C31B1FEF7F00127133 /* CTTFModel.h */,
-				899384C41B1FEF7F00127133 /* CTTFModel.m */,
-			);
-			path = CRTFModel;
 			sourceTree = "<group>";
 		};
 		899384C51B1FEF7F00127133 /* CRToast */ = {
@@ -306,7 +293,6 @@
 				D6A615261AAA9845006CCBF3 /* AppDelegate.m in Sources */,
 				899384D51B1FEF7F00127133 /* CRToast.m in Sources */,
 				899384D71B1FEF7F00127133 /* CRToastView.m in Sources */,
-				899384D41B1FEF7F00127133 /* CTTFModel.m in Sources */,
 				899384D61B1FEF7F00127133 /* CRToastManager.m in Sources */,
 				899384D31B1FEF7F00127133 /* CoreToast.m in Sources */,
 				D6A615231AAA9845006CCBF3 /* main.m in Sources */,
